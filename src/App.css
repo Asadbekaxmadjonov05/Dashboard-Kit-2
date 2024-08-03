@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav a{
+    transition: all .3s ease;
+}
+
+nav a.active {
+    color: #dde2ff;
+    background: rgba(159, 162, 180, 0.3);
+    border-color: #dde2ff;
+}
+
+
+
